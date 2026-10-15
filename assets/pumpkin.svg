@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img"><defs>
+ <linearGradient id="leaf" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#bde97a"/><stop offset=".53" stop-color="#66ae55"/><stop offset="1" stop-color="#267e48"/></linearGradient>
+ <linearGradient id="leaf2" x1=".1" y1="0" x2="1" y2="1"><stop stop-color="#8fda75"/><stop offset="1" stop-color="#22814c"/></linearGradient>
+ <linearGradient id="dk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5fa15a"/><stop offset="1" stop-color="#18633b"/></linearGradient>
+ <radialGradient id="red" cx=".3" cy=".2" r=".85"><stop stop-color="#ffa485"/><stop offset=".53" stop-color="#ef5942"/><stop offset="1" stop-color="#bd383a"/></radialGradient>
+ <linearGradient id="orange" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#ffce69"/><stop offset=".5" stop-color="#f59537"/><stop offset="1" stop-color="#db692b"/></linearGradient>
+ <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff3aa"/><stop offset="1" stop-color="#e9b647"/></linearGradient>
+ <linearGradient id="purple" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#c396d7"/><stop offset=".45" stop-color="#9352ae"/><stop offset="1" stop-color="#5b2b81"/></linearGradient>
+ <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff2d2"/><stop offset="1" stop-color="#c5a373"/></linearGradient>
+ <linearGradient id="potato" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5d99b"/><stop offset="1" stop-color="#bf975c"/></linearGradient>
+ <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#deb16f"/><stop offset=".5" stop-color="#c58a4d"/><stop offset="1" stop-color="#a56738"/></linearGradient>
+ <filter id="shade" x="-30%" y="-40%" width="170%" height="190%"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#204c28" flood-opacity=".14"/></filter>
+ <filter id="blur"><feGaussianBlur stdDeviation="6"/></filter>
+</defs><ellipse cx="180" cy="267" rx="108" ry="13" fill="#395537" opacity=".11" filter="url(#blur)"/><g filter="url(#shade)">
+     <ellipse cx="180" cy="183" rx="116" ry="76" fill="url(#orange)" stroke="#ce7b32" stroke-width="4"/>
+     <ellipse cx="127" cy="184" rx="52" ry="70" fill="url(#orange)" stroke="#d57b2d" stroke-width="3"/>
+     <ellipse cx="227" cy="184" rx="52" ry="70" fill="url(#orange)" stroke="#d57b2d" stroke-width="3"/>
+     <ellipse cx="181" cy="183" rx="53" ry="77" fill="url(#orange)" stroke="#d57b2d" stroke-width="3"/>
+     <path d="M177 114Q181 83 195 78" stroke="#548344" stroke-width="13" stroke-linecap="round" fill="none"/>
+     <path d="M190 106Q205 71 248 83Q232 118 190 113Z" fill="url(#leaf)" stroke="#437d49" stroke-width="3"/>
+     <path d="M138 155Q136 214 153 238M220 146Q230 208 206 248" stroke="#ffc880" stroke-width="6" opacity=".55" fill="none" stroke-linecap="round"/>
+     </g></svg>

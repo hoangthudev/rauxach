@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#1c5637">
+  <meta name="description" content="Khám phá các loại rau lá, củ quả, rau gia vị và combo rau củ tại Lá Lành.">
+  <title>Cửa hàng rau sạch | Lá Lành</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body data-page="catalog">
+  <div id="siteHeader"></div>
+  <main>
+    <section class="page-intro page-intro--catalog"><div class="container page-intro-content"><nav class="breadcrumb" aria-label="Đường dẫn"><a href="index.html">Trang chủ</a><span>/</span><span>Sản phẩm</span></nav><span class="section-kicker">GÓC BẾP XANH</span><h1>Gian rau <em>tươi mỗi ngày</em></h1><p>Từ rau lá giòn mát đến củ quả ngọt lành — tất cả ở đây, chờ bạn chọn.</p></div><img src="assets/basket-small.svg" alt="" class="intro-decor" aria-hidden="true"></section>
+    <div class="container catalog-layout" id="catalogTop">
+      <aside class="filter-sidebar" aria-label="Bộ lọc sản phẩm">
+        <div class="sidebar-top"><h2>Bộ lọc</h2><button id="resetFilters" type="button" class="text-button">Xoá lọc</button></div>
+        <div class="filter-block"><h3>Danh mục</h3><div class="category-options" id="catalogCategories" role="group" aria-label="Danh mục sản phẩm"></div></div>
+        <div class="filter-block"><h3>Khoảng giá</h3><div class="price-inputs"><label for="minPrice">Từ (đ)<input id="minPrice" type="number" min="0" step="1000" placeholder="0"></label><label for="maxPrice">Đến (đ)<input id="maxPrice" type="number" min="0" step="1000" placeholder="200000"></label></div><p class="filter-hint">Giá theo từng đơn vị sản phẩm.</p><p id="filterMessage" class="filter-message" role="status"></p></div>
+        <div class="filter-note"><span>🌿</span><strong>Chọn điều tươi lành</strong><p>Mỗi món rau trong gian hàng đều có mức giá rõ ràng, dễ chọn, dễ mua.</p></div>
+      </aside>
+      <section class="catalog-content" aria-labelledby="catalogTitle">
+        <div class="catalog-bar"><div><span class="section-kicker">DANH SÁCH SẢN PHẨM</span><h2 id="catalogTitle">Chọn món ngon hôm nay</h2><p id="resultCount" role="status" aria-live="polite"></p></div></div>
+        <div class="catalog-tools"><label class="search-field" for="searchInput"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input type="search" id="searchInput" placeholder="Tìm rau củ yêu thích..." autocomplete="off"></label><label class="sort-select" for="sortPrice"><span>Sắp xếp</span><select id="sortPrice"><option value="default">Nổi bật</option><option value="asc">Giá: thấp đến cao</option><option value="desc">Giá: cao đến thấp</option><option value="name">Tên: A đến Z</option></select></label></div>
+        <div id="productList" class="product-grid product-grid--catalog" aria-live="polite"></div>
+        <nav id="pagination" class="pagination" aria-label="Phân trang sản phẩm"></nav>
+      </section>
+    </div>
+    <div class="container catalog-bottom-note"><span>🌱</span><p>Rau ngon không cần tìm đâu xa — chỉ cần ghé Lá Lành một chút!</p><a href="gio-hang.html">Xem giỏ hàng <span>→</span></a></div>
+  </main>
+  <div id="siteFooter"></div><div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

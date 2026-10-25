@@ -11,8 +11,8 @@ const PRODUCTS = [
         id: 1,
         name: "Xà lách",
         category: "rau-la",
-        price: 13000,
-        soluong: "200g",
+        price: 15.000,
+        soluong: "250g",
         unit: "bó",
         image: "xalach.jpg",
         tint: "mint",
@@ -47,7 +47,7 @@ const PRODUCTS = [
         id: 4,
         name: "Cải thìa",
         category: "rau-la",
-        price: 21000,
+        price: 22000,
         soluong: "500g",
         unit: "bó",
         image: "caithia.jpg",
@@ -71,7 +71,7 @@ const PRODUCTS = [
         id: 6,
         name: "Combo Salad",
         category: "combo",
-        price: 29000,
+        price: 32000,
         soluong: "450g",
         unit: "bó",
         image: "combosalad.jpg",
@@ -83,7 +83,7 @@ const PRODUCTS = [
         id: 7,
         name: "Combo rau hằng ngày",
         category: "combo",
-        price: 49000,
+        price: 59000,
         soluong: "1500g",
         unit: "bó",
         image: "comborauhangngay.jpg",
@@ -178,7 +178,7 @@ function renderShell() {
     </div><nav id="mobileNav" class="mobile-nav" aria-label="Menu điện thoại" hidden>${links}<a href="gio-hang.html">🛒 Giỏ hàng (<span data-cart-count>0</span>)</a></nav></header>`;
     $("#siteFooter").innerHTML = `
     <footer class="site-footer" id="lien-he"><div class="container footer-main"><div class="footer-about"><a class="brand brand--footer" href="index.html">${logo}</a><p>Gom chút tươi xanh cho từng bữa ăn. Lá Lành là góc chợ nhỏ dành cho những ai yêu thực phẩm tươi ngon và cuộc sống giản dị.</p><div class="footer-mini-tags"><span>🌿 Tươi ngon</span><span>💚 Tận tâm</span></div></div>
-    <div class="footer-links"><h3>Giới thiệu</h3><span>Công ty Cổ phần Nông nghiệp Công nghệ Lá Lành</span><br><br><strong>Địa chỉ:</strong> Khu vực đất nông nghiệp thuộc xã Xuân Thới Sơn, TP.HCM <br> <br> <span><strong>Email:</strong> lalanhfarm2026@gmail.com </span></div>
+    <div class="footer-links"><h3>Giới thiệu</h3><span>CÔNG TY TNHH MỘT THÀNH VIÊN LÁ LÀNH FARM</span><br><br><strong>Địa chỉ:</strong> Khu vực đất nông nghiệp thuộc xã Xuân Thới Sơn, TP.HCM <br> <br> <span><strong>Email:</strong> lalanhfarm2026@gmail.com </span></div>
     <div class="footer-links"><h3>Cùng Lá Lành</h3><a href="index.html#farm-story">Câu chuyện của chúng mình</a><a href="index.html#best-sellers">Rau được yêu thích</a><a href="gio-hang.html">Giỏ hàng</a><a href="thanh-toan.html">Thanh toán</a></div>
     <div class="footer-contact"><h3>Lời nhắn nhỏ</h3><p>Ăn một bữa thật lành, sống một ngày thật vui. Cảm ơn bạn đã ghé thăm khu vườn nhỏ!</p><div class="footer-card"><span>☀️</span><span><strong>Chúc bạn một ngày xanh!</strong><small>Mua sắm vui vẻ tại Lá Lành</small></span></div></div></div>
     <div class="footer-bottom"><div class="container footer-bottom-inner"><span>© <span id="footerYear"></span> Lá Lành. Thiết kế website mẫu.</span><span>Sản phẩm, ưu đãi & thanh toán chỉ mang tính minh hoạ.</span></div></div></footer>`;

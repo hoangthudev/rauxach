@@ -8,10 +8,10 @@
 
 const PRODUCTS = [
     {
-        id: 1,
+        id: 2,
         name: "Xà lách",
         category: "rau-la",
-        price: 15000.00,
+        price: 15000,
         soluong: "250g",
         unit: "bó",
         image: "xalach.jpg",
@@ -20,7 +20,7 @@ const PRODUCTS = [
         descripton: ""
     },
     {
-        id: 2,
+        id: 1,
         name: "Cải kale",
         category: "rau-la",
         price: 22000,

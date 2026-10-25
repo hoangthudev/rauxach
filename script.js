@@ -96,7 +96,7 @@ const PRODUCTS = [
 const CATEGORIES = [
     { id: "all", name: "Tất cả sản phẩm", icon: "✳" },
     { id: "rau-la", name: "Rau xanh", icon: "🥬" },
-    { id: "combo", name: "Combo rau", icon: "🥬" }
+    { id: "combo", name: "Combo rau", icon: "🥬" },
 ];
 
 

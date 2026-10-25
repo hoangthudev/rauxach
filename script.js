@@ -11,7 +11,7 @@ const PRODUCTS = [
         id: 1,
         name: "Xà lách",
         category: "rau-la",
-        price: 15000,
+        price: 150000,
         soluong: "250g",
         unit: "bó",
         image: "xalach.jpg",
